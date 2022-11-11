@@ -42,7 +42,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "PORT=3000 craco start",
+    "start": " npm config set legacy-peer-deps true && PORT=3000 craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject"
