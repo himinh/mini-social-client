@@ -42,7 +42,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": " npm config set legacy-peer-deps true && craco start",
+    "start": "npm config set legacy-peer-deps true && craco build && npm install --global server && serve -s build  ",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject"
