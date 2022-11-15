@@ -9,7 +9,7 @@ export const registerSchema = yup.object({
   email: yup.string().email().required().label('Email'),
   name: yup.string().required().label('Name'),
   password: yup.string().required().label('Password'),
-  dateOfBirth: yup.date().required().label('Date Of Birth'),
+  // dateOfBirth: yup.date().required().label('Date Of Birth'),
 });
 
 export const emailSchema = yup.object({

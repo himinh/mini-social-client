@@ -17,7 +17,7 @@ const defaultValues: RegisterData = {
   email: '',
   name: '',
   password: '',
-  dateOfBirth: null,
+  // dateOfBirth: null,
 };
 
 export const SignUp = () => {
@@ -57,10 +57,10 @@ export const SignUp = () => {
         <Box mb={3}>
           <FormInputText label="Password" name="password" type="password" control={control} />
         </Box>
-
+        {/* 
         <Box mb={3}>
-          <FormInputDate label="Ngày Sinh" name="dateOfBirth" control={control} />
-        </Box>
+          <FormInputDate label="Ngày Sinh" name="dateOfBirth" type="date" control={control} />
+        </Box> */}
 
         <LoadingButton
           loadingIndicator="Sign Up..."

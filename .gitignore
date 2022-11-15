@@ -42,3 +42,5 @@ build/Release
 node_modules/
 jspm_packages/
 .git/
+# Local Netlify folder
+.netlify

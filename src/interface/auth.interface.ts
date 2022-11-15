@@ -14,7 +14,7 @@ export interface RegisterData {
   email: string;
   name: string;
   password: string;
-  dateOfBirth: Date | null;
+  // dateOfBirth: Date | null;
 }
 
 export interface PasswordData {
